@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  frontend:
+      image: cxttonn/234-deploylab-frontend:lastest
+      ports:    
+         - "8086:80"
+
+
